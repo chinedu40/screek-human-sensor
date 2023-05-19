@@ -5,6 +5,8 @@ esphome:
   name_add_mac_suffix: True
   platformio_options:
     board_build.flash_mode: dio
+    platform_packages:
+      - espressif/toolchain-riscv32-esp @ 8.4.0+2021r2-patch5
   project: 
     name: Screek.Human_Presence_Sensor
     version: 1W
